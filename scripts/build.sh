@@ -6,4 +6,6 @@ echo "docker images"
 docker images
 echo "giving a tag"
 docker tag test_image praveengdocker/dev_region:v1
+docker images
+echo"pushing to repo"
 docker push praveengdocker/dev_region:v1
