@@ -7,5 +7,5 @@ docker images
 echo "giving a tag"
 docker tag test_image praveengdocker/dev_region:jenkins
 docker images
-#echo "pushing to repo"
-#docker push praveengdocker/dev_region:jenkins
+echo "pushing to repo"
+docker push praveengdocker/dev_region:jenkins
